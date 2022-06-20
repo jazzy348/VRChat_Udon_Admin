@@ -8,8 +8,6 @@ public class Admin_Players : UdonSharpBehaviour
 {
     [SerializeField] GameObject[] adminObjects;
     [SerializeField] string[] adminUsers;
-
-
     void Start()
     {
         foreach(string adminPlayers in adminUsers) {
